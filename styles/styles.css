@@ -97,6 +97,13 @@ hr {
   gap: 5px;
   margin-left: 2.5%;
 }
+.element-1::after {
+  display: inline-block;
+  --tw-content: "↗";
+  padding-left: 0.25rem;
+  font-size: 18px;
+  content: "↗";
+}
 .element {
   width: 100%;
   display: flex;
@@ -176,6 +183,8 @@ hr {
 .headpara {
   font-size: 18px;
   color: rgb(116 116 132);
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 .grid-section2 {
   padding: 10px;
@@ -196,7 +205,18 @@ hr {
   padding: 10px;
 }
 .grid-section3 img {
+  width: 400px;
+  height: 225px;
+  border-radius: 5px;
+  margin-bottom: 25px;
+}
+.grid-section3a {
+  display: grid;
   width: 100%;
+  padding: 10px;
+}
+.grid-section3a img {
+  width: 450px;
   height: 225px;
   border-radius: 5px;
   margin-bottom: 25px;
@@ -213,7 +233,8 @@ hr {
   margin-bottom: 25px;
 }
 .grid-section3:hover,
-.grid-section4:hover {
+.grid-section4:hover,
+.grid-section3a:hover {
   background-color: #f4f4ff;
   border-radius: 5px;
 }
