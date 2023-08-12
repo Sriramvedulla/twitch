@@ -1,0 +1,110 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  background-color: #e6e6ea;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.header {
+  background-image: url(https://subs-image-assets.s3.us-west-2.amazonaws.com/turbo-landing-background.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 15rem;
+  width: auto;
+}
+.header img {
+  margin-top: 5%;
+  margin-left: 43%;
+  width: 13%;
+}
+.sector {
+  width: 50%;
+  margin-left: 25%;
+  text-align: center;
+  line-height: 1.5;
+  letter-spacing: 1px;
+  margin-bottom: 20px;
+}
+.sector1 strong {
+  font-weight: 700;
+  font-size: 20px;
+}
+.sector1 p {
+  margin-bottom: 0.5rem;
+  font-size: 17px;
+}
+.sector2 {
+  display: flex;
+  text-align: justify;
+  padding: 0.5rem;
+  background-color: #fff;
+  margin-bottom: 20px;
+}
+.sector2-content {
+  padding-left: 25px;
+  padding-right: 25px;
+}
+.sector2-content strong {
+  color: #535b6e;
+}
+.sector2-content p {
+  padding-top: 0.5rem;
+  font-size: 13px;
+  color: #535b6e;
+}
+.sector2-flex > .flex-img {
+  padding-top: 2.3rem;
+  padding-left: 1rem;
+}
+.sector2-flex img {
+  padding-top: 1rem;
+  padding-left: 1rem;
+}
+footer {
+  background-color: rgb(21, 17, 17);
+  padding-bottom: 5%;
+}
+.footer-menus {
+  width: 65%;
+  margin-left: 17%;
+  padding-top: 4%;
+}
+.footer-list ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+  line-height: 1.5;
+}
+.footer-list li {
+  list-style-type: none;
+  font-size: 14px;
+  margin-right: 1rem;
+}
+.footer-list li a {
+  color: white;
+  text-decoration: none;
+  white-space: nowrap;
+}
+.footer-list li a:hover {
+  text-decoration: underline;
+}
+.subscribe strong {
+  padding: 8px 110px 8px 110px;
+  border-radius: 5px;
+  background-color: #9146ff;
+  color: #fff;
+  font-weight: 600;
+  font-size: 15px;
+}
+.subscribe :hover {
+  background-color: #772ce8;
+}
+.subscribe h5 {
+  font-weight: bold;
+  color: #242424;
+  font-size: 15px;
+  margin-top: 10px;
+}
